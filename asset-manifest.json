@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/alcor-meals-front/static/css/main.f50ff4a6.chunk.css",
+    "main.js": "/alcor-meals-front/static/js/main.493b3454.chunk.js",
+    "main.js.map": "/alcor-meals-front/static/js/main.493b3454.chunk.js.map",
+    "runtime-main.js": "/alcor-meals-front/static/js/runtime-main.70efd699.js",
+    "runtime-main.js.map": "/alcor-meals-front/static/js/runtime-main.70efd699.js.map",
+    "static/js/2.425b25b7.chunk.js": "/alcor-meals-front/static/js/2.425b25b7.chunk.js",
+    "static/js/2.425b25b7.chunk.js.map": "/alcor-meals-front/static/js/2.425b25b7.chunk.js.map",
+    "static/js/3.846a725d.chunk.js": "/alcor-meals-front/static/js/3.846a725d.chunk.js",
+    "static/js/3.846a725d.chunk.js.map": "/alcor-meals-front/static/js/3.846a725d.chunk.js.map",
+    "index.html": "/alcor-meals-front/index.html",
+    "static/css/main.f50ff4a6.chunk.css.map": "/alcor-meals-front/static/css/main.f50ff4a6.chunk.css.map",
+    "static/js/2.425b25b7.chunk.js.LICENSE.txt": "/alcor-meals-front/static/js/2.425b25b7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.70efd699.js",
+    "static/js/2.425b25b7.chunk.js",
+    "static/css/main.f50ff4a6.chunk.css",
+    "static/js/main.493b3454.chunk.js"
+  ]
+}
