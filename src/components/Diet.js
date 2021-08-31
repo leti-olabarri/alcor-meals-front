@@ -16,7 +16,7 @@ const Diet = (props) => {
                 <tr>
                   <th scope="row" className="diet">1</th>
                   <td className="diet">Ana Calvo</td>
-                  <td className="diet">No colesterol</td>
+                  <td className="diet">No colesterol, lechuga y arroz</td>
                 </tr>
                 <tr>
                   <th scope="row" className="diet">2</th>
