@@ -20,38 +20,38 @@ const Diet = (props) => {
                 </tr>
                 <tr>
                   <th scope="row" className="diet">2</th>
-                  <td className="diet">Cristiano Ronaldo</td>
-                  <td className="diet">No fritos, no grasas</td>
+                  <td className="diet">Manuela Salgado</td>
+                  <td className="diet">Celíaca</td>
                 </tr>
                 <tr>
                   <th scope="row" className="diet">3</th>
-                  <td className="diet">Nacho Fernández</td>
-                  <td className="diet">Diabetes</td>
+                  <td className="diet">María Gracia Ballarín</td>
+                  <td className="diet">Celíaca</td>
                 </tr>
                 <tr>
                   <th scope="row" className="diet">4</th>
-                  <td className="diet">Karim Benzema</td>
-                  <td className="diet">Halal</td>
+                  <td className="diet">Marta Luzón</td>
+                  <td className="diet">Diabetes</td>
                 </tr>
                 <tr>
                   <th scope="row" className="diet">5</th>
-                  <td className="diet">Fede Valverde</td>
-                  <td className="diet">Celiaco</td>
+                  <td className="diet">Esperanza Carrasco</td>
+                  <td className="diet">No frutos secos y maíz</td>
                 </tr>
                 <tr>
                   <th scope="row" className="diet">6</th>
-                  <td className="diet">Eden Hazard</td>
-                  <td className="diet">Celiaco</td>
+                  <td className="diet">Yolanda Llop</td>
+                  <td className="diet">No frutos secos</td>
                 </tr>
                 <tr>
                   <th scope="row" className="diet">7</th>
-                  <td className="diet">Lucas Vázquez</td>
-                  <td className="diet">Sin lactosa</td>
+                  <td className="diet">Manuela Amann</td>
+                  <td className="diet">Comida pesada</td>
                 </tr>
                 <tr>
                   <th scope="row" className="diet">8</th>
-                  <td className="diet">Tony Kroos</td>
-                  <td className="diet">No carne, no pescado</td>
+                  <td className="diet">Marta Carrasco</td>
+                  <td className="diet">Sin lactosa</td>
                 </tr>
               </tbody>
             </table>

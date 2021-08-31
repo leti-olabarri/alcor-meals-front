@@ -76,8 +76,8 @@ class App extends Component {
                 meal={data["meals"][2]["meal"]}
                 name1={data["meals"][2]["turns"][0]["turn"]}
                 name2={data["meals"][2]["turns"][1]["turn"]}
-                turn1={data["meals"][2]["turns"][0]["number"]}
-                turn2={data["meals"][2]["turns"][1]["number"]}
+                turn1={data["meals"][0]["turns"][0]["number"]}
+                turn2={data["meals"][0]["turns"][1]["number"]}
               ></BreakfastCard>
               <ThingsCard
                 meal={data["meals"][3]["meal"]}
