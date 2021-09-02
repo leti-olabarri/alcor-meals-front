@@ -30,26 +30,31 @@ const Diet = (props) => {
                 </tr>
                 <tr>
                   <th scope="row" className="diet">4</th>
+                  <td className="diet">Carmen Alcalá</td>
+                  <td className="diet">Celíaca</td>
+                </tr>
+                <tr>
+                  <th scope="row" className="diet">5</th>
                   <td className="diet">Marta Luzón</td>
                   <td className="diet">Diabetes</td>
                 </tr>
                 <tr>
-                  <th scope="row" className="diet">5</th>
+                  <th scope="row" className="diet">6</th>
                   <td className="diet">Esperanza Carrasco</td>
                   <td className="diet">No frutos secos y maíz</td>
                 </tr>
                 <tr>
-                  <th scope="row" className="diet">6</th>
+                  <th scope="row" className="diet">7</th>
                   <td className="diet">Yolanda Llop</td>
                   <td className="diet">No frutos secos</td>
                 </tr>
                 <tr>
-                  <th scope="row" className="diet">7</th>
+                  <th scope="row" className="diet">8</th>
                   <td className="diet">Manuela Amann</td>
                   <td className="diet">Comida pesada</td>
                 </tr>
                 <tr>
-                  <th scope="row" className="diet">8</th>
+                  <th scope="row" className="diet">9</th>
                   <td className="diet">Marta Carrasco</td>
                   <td className="diet">Sin lactosa</td>
                 </tr>
