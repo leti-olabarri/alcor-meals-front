@@ -1,6 +1,6 @@
 import React from "react";
 
-const Diet = (props) => {
+const Diet = () => {
     return (
         <div className="box blue diet">
         <h2>REGÍMENES</h2>
