@@ -51,7 +51,7 @@ const Diet = () => {
                 <tr>
                   <th scope="row" className="diet">8</th>
                   <td className="diet">Manuela Amann</td>
-                  <td className="diet">Comida pesada</td>
+                  <td className="diet">Comida pesada, sin lactosa y sin queso</td>
                 </tr>
                 <tr>
                   <th scope="row" className="diet">9</th>
