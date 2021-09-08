@@ -1,6 +1,9 @@
 import React from "react";
 
 const MealsCard = (props) => {
+  let replace = props.tables1 + props.tables2 - 16
+  let turn3_not_guests = props.turn3 - props.guests
+  let turn3_tables = Math.ceil((props.turn3 - props.guests)/3)
     return (
         <div className="box blue">
         <h2>{props.meal}</h2>
@@ -18,7 +21,7 @@ const MealsCard = (props) => {
                   <th scope="row"></th>
                   <td>{props.turn1}</td>
                   <td>{props.turn2}</td>
-                  <td>{props.turn3}</td>
+                  <td>{turn3_not_guests} + {props.guests}</td>
                 </tr>
                 <tr>
                   <th scope="row">Reg.:</th>
@@ -27,10 +30,16 @@ const MealsCard = (props) => {
                   <td className="regs">{props.reg3}</td>
                 </tr>
                 <tr>
-                  <th scope="row">Mesas:</th>
+                  <th scope="row">Comedor:</th>
                   <td className="tables">{props.tables1} mesas</td>
                   <td className="tables">{props.tables2} mesas</td>
-                  <td className="tables">{props.tables3} mesas</td>
+                  <td className="tables">{turn3_tables} mesas</td>
+                </tr>
+                <tr>
+                  <th scope="row">Reponer:</th>
+                  <td className="tables"></td>
+                  <td className="tables">{replace}</td>
+                  <td className="tables"></td>
                 </tr>
               </tbody>
             </table>

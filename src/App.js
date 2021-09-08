@@ -53,6 +53,7 @@ class App extends Component {
               tables1={data["meals"][0]["turns"][0]["tables"]}
               tables2={data["meals"][0]["turns"][1]["tables"]}
               tables3={data["meals"][0]["turns"][2]["tables"]}
+              guests={(data["meals"][0]["turns"][2]["guests-room"]).length}
             ></MealsCard>
             <MealsCard
               meal={data["meals"][1]["meal"]}
@@ -68,6 +69,7 @@ class App extends Component {
               tables1={data["meals"][1]["turns"][0]["tables"]}
               tables2={data["meals"][1]["turns"][1]["tables"]}
               tables3={data["meals"][1]["turns"][2]["tables"]}
+              guests={(data["meals"][1]["turns"][2]["guests-room"]).length}
             ></MealsCard>
           </div>
           <div className="row2-container">
