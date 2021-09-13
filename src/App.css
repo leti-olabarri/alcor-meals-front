@@ -43,23 +43,23 @@ a {
 }
 
 td {
-  font-size: 35px;
+  font-size: 40px;
 }
 
 .regs {
-  font-size: 28px;
+  font-size: 33px;
 }
 
 .tables {
-  font-size: 28px;
+  font-size: 33px;
 }
 
 .things {
-  font-size: 28px;
+  font-size: 33px;
 }
 
 .thingsRegs {
-  font-size: 22px;
+  font-size: 27px;
   list-style: none;
   text-align: center;
   padding-left: 5px;
@@ -67,11 +67,11 @@ td {
 }
 
 th {
-  font-size: 18px;
+  font-size: 23px;
 }
 
 .diet {
-  font-size: 22px;
+  font-size: 27px;
   padding-left: 5px;
 }
 
@@ -145,7 +145,7 @@ svg path {
 
   .box {
     width: 48%;
-    min-height: 40%;
+    min-height: 50%;
   }
 
   .table {
