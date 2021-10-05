@@ -1,6 +1,6 @@
 import React from "react";
 
-const MealsCard = (props) => {
+const DinnerCard = (props) => {
   let turn3_not_guests = props.late_number - props.guests
     return (
         <div className="box blue">
@@ -9,7 +9,6 @@ const MealsCard = (props) => {
               <thead>
                 <tr>
                   <th scope="col"></th>
-                  <th scope="col">{props.soon_name}</th>
                   <th scope="col">{props.normal_name}</th>
                   <th scope="col">{props.late_name}</th>
                 </tr>
@@ -17,25 +16,21 @@ const MealsCard = (props) => {
               <tbody>
                 <tr>
                   <th scope="row"></th>
-                  <td>{props.soon_number}</td>
                   <td>{props.normal_number}</td>
                   <td>{turn3_not_guests} + {props.guests}</td>
                 </tr>
                 <tr>
                   <th scope="row">Reg.:</th>
-                  <td className="regs">{props.soon_reg}</td>
                   <td className="regs">{props.normal_reg}</td>
                   <td className="regs">{props.late_reg}</td>
                 </tr>
                 <tr>
                   <th scope="row">Mesas de 6:</th>
-                  <td className="tables">{props.tables_soon_6} mesas</td>
                   <td className="tables">{props.tables_normal_6} mesas</td>
                   <td className="tables">{props.tables_late_6} mesas</td>
                 </tr>
                 <tr>
                   <th scope="row">Mesas de 5:</th>
-                  <td className="tables">{props.tables_soon_5} mesas</td>
                   <td className="tables">{props.tables_normal_5} mesas</td>
                   <td className="tables">{props.tables_late_5} mesas</td>
                 </tr>
@@ -45,4 +40,4 @@ const MealsCard = (props) => {
     )
 }
 
-export default MealsCard;
+export default DinnerCard;

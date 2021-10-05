@@ -130,21 +130,18 @@ svg path {
     align-items: center;
   }
 
-  .column-container {
+  .row3-container {
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
-    width: 49%;
-  }
-
-  .column-container .box {
-    width: 97%;
-    min-height: 50%;
   }
 
   .box {
     width: 48%;
+    min-height: 50%;
+  }
+
+  .row2-container .box {
+    width: 96.5%;
     min-height: 50%;
   }
 

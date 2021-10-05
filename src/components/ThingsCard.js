@@ -46,9 +46,9 @@ class ThingsCard extends Component {
                     </ul></td>
                 <td className="things">
                     <ul className="thingsRegs">
-                      {sandwich[0].map((el, i) => (
+                      {sandwich[0].map((element, i) => (
                         <li className="thingsRegs" key={i}>
-                          {el}
+                          {element}
                         </li>
                       ))}
                     </ul>
